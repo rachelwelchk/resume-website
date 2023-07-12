@@ -1,0 +1,76 @@
+/* Add CSS styles here */
+body {
+  font-family: Baskerville, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.baskerville-font {
+  font-family: Baskerville, serif;
+  font-weight: 300; /* Adjust the value to make the font thinner */
+  letter-spacing: 23px; /* Adjust the value to increase or decrease the spacing */
+}
+
+.projects {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects button {
+  margin-right: 90px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-family: Baskerville, serif;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.about {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.contact {
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info .phone,
+.contact-info .email {
+  display: block;
+  margin: 0;
+}
+
+#linkedinlink {
+  color: #000000; /* Link color when not visited */
+  text-decoration: none; /* Remove underline */
+}
+
+#linkedinlink:visited {
+  color: #000000; /* Link color when visited */
+}
+
+#linkedinlink:hover {
+  color: #5d75d6; /* Link color on hover */
+}

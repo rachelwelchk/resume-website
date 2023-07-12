@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rachel Welch - Resume</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="baskerville-font">Rachel Welch</h1>
+  </header>
+
+  <div class="projects">
+    <button onclick="showAbout()">About Me</button>
+    <button onclick="window.location.href='resume.html'">Resume</button>
+    <button onclick="window.location.href='projects.html'">Projects</button>
+    <button onclick="showContact()">Contact</button>
+  </div>
+
+  <img src="https://i.imgur.com/qwViozX.jpg" alt="Profile Picture" class="profile-img">
+
+  <div class="about" id="about">
+    <p id="about-content"> I am currently studying Product Management at Fullstack Academy through the University of
+      Dallas. I graduated from The University of Texas at Arlington with a Bachelor of Science in Biology in December
+      2021. However, I am looking to pivot into tech through a managerial role. I currently reside in McKinney, TX with
+      my husband and daughter. We are expecting another baby girl late August.</p>
+  </div>
+
+  <div class="contact" id="contact">
+    <p id="about-content">
+      Email: Rkulhanek@gmail.com
+      <br>
+      Phone: 302-396-8119
+      <br>
+      <a id="linkedinlink" href="https://www.linkedin.com/in/rachel-welch-kulhanek" target="_blank">LinkedIn Profile</a>
+    </p>
+  </div>
+
+  <script>
+    function showContact() {
+      var about = document.getElementById("about");
+      var contact = document.getElementById("contact");
+      about.style.display = "none";
+      contact.style.display = "block";
+    }
+    function showAbout() {
+      var about = document.getElementById("about");
+      var contact = document.getElementById("contact");
+      about.style.display = "block";
+      contact.style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
