@@ -27,6 +27,11 @@ body {
   font-family: Baskerville, serif;
 }
 
+.projects button:hover {
+  background-color: #4a829a; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}
+
 .profile-img {
   display: block;
   margin: 0 auto;
@@ -63,14 +68,28 @@ body {
 }
 
 #linkedinlink {
-  color: #000000; /* Link color when not visited */
+  color: #4a829a; /* Link color when visited */
   text-decoration: none; /* Remove underline */
 }
 
 #linkedinlink:visited {
-  color: #000000; /* Link color when visited */
+  color: #4a829a; /* Link color when visited */
 }
 
 #linkedinlink:hover {
-  color: #5d75d6; /* Link color on hover */
+  color: #7cc27f; /* Link color on hover */
+}
+
+#pm-header {
+  font-family: Baskerville, serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+#links {
+  color: #4a829a; /* Link color when visited */
+  text-decoration: none; /* Remove underline */
+}
+#links:hover {
+  color: #7cc27f; /* Link color on hover */
 }
